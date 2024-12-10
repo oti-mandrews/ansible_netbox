@@ -3,6 +3,8 @@ plugin: netbox.netbox.nb_inventory
 api_endpoint: https://s1ipam01.otisvcs.cloud
 validate_certs: False
 config_context: True
+ansible_user: ansible
+ansible_password: L30nards!
 interfaces: False
 group_by:
   - platforms
