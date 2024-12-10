@@ -1,7 +1,7 @@
 ---
 plugin: netbox.netbox.nb_inventory
-api_endpoint: https://s1ipam01.otisvcs.cloud:8000
-validate_certs: True
+api_endpoint: https://s1ipam01.otisvcs.cloud
+validate_certs: False
 config_context: True
 interfaces: False
 group_by:
