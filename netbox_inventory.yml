@@ -1,11 +1,17 @@
 ---
 plugin: netbox.netbox.nb_inventory
+
 api_endpoint: https://s1ipam01.otisvcs.cloud
-validate_certs: False
-config_context: True
-interfaces: True
+validate_certs: false
+timeout: 600
+
+interfaces: true
+config_context: true
+custom_fields: true
+
 group_by:
   - platforms
+
 device_query_filters:
-  - has_primary_ip: 'true'
-timeout: 600
+  - has_primary_ip: true
+  - role: ['hypervisor', 'server', 'firewall']
