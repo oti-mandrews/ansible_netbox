@@ -8,4 +8,5 @@ group_by:
   - platforms
 device_query_filters:
   - has_primary_ip: 'true'
+  - role__n: ['rack-accessories']
 timeout: 600
