@@ -7,5 +7,5 @@ interfaces: True
 group_by:
   - platforms
 device_query_filters:
-  - status: active
+  - has_primary_ip: 'true'
 timeout: 600
