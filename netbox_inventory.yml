@@ -14,4 +14,3 @@ group_by:
 
 device_query_filters:
   - has_primary_ip: true
-  - role: ['hypervisor', 'server', 'firewall']
