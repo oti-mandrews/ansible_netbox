@@ -10,7 +10,11 @@ config_context: true
 custom_fields: true
 
 group_by:
+  - device_roles
   - platforms
+  - tags
+  - custom_fields
+  - site
 
 device_query_filters:
   - has_primary_ip: true
